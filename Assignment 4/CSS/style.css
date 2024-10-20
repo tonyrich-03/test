@@ -1,0 +1,360 @@
+/* styling of universal elements */
+body, main {
+  font-family: Arial, sans-serif;
+  background-color: #f8f4f4;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 200px;
+ 
+}
+/* styling of the page 2 */
+.page-2 {
+  position: absolute;
+  display: flex;
+  margin-top: -540px;
+  margin-left: 1600px;
+  border-radius: 80px;
+  width: 20px;
+  height: 30px;
+ 
+}
+/* Responsive styling for mobile */
+@media (min-width: 50px) {
+  .page-2 {
+    width: 50%; /* For screens 200px wide or more (mobile) */
+    border-radius: 0px;
+  }
+}
+
+/* Responsive styling for tablet */
+@media (min-width: 100px) {
+  .page-2 {
+    width: 100%; /* For screens 500px wide or more (tablet) */
+  }
+}
+
+/* Responsive styling for desktop */
+@media (min-width: 1024px) {
+  .page-2 {
+    width: 100%; /* For screens 1024px wide or more (desktop) */
+  }
+}
+#sign-up-page {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+/* styling of the signup_individual container */
+.signup_individual-container {
+    font-family: 'Lato';
+    font-weight: 800;
+    width: 640px;
+    margin: 0px;
+    margin-left: 900px;
+    padding: 5px;
+    background-color: #f1f5f4;
+    border-radius: 0px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 450px;
+}
+.parent-form-section {
+  display: flex;
+  flex-direction: column;
+  column-gap: 320px 100px;
+}
+
+/* styling of the form */
+.signup-page-container {
+    background-color: white;
+    padding: 0px 0px 0px 0px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px rgba(71, 71, 71, 0.459);
+    width: 310px;
+    height: 400px;
+    margin-left: 310px;
+    margin-right: 500px;  
+    margin-top: -270px;
+    
+}
+.header img {
+  display: flex;
+  margin-top: 160px;
+  margin-left: 30px;
+  border-radius: 100%;
+}
+.header .class-for-individuals-1 {
+  display: flex;
+  margin: 20px;
+  margin-left: 34px;
+  font-size: 30px;
+}
+.class-1 {
+  display: flex;
+  color: rgba(71, 71, 71, 0.459);
+  width: 259px;
+  margin: 0px;
+  margin-left: 37px;
+  margin-top: 0px;
+  font-size: 9.9px;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+/* styling of form group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+/* styling of form-group */
+ .form-group #gender {
+  width: 120px;
+}
+.form-row-1 {
+  display: flex;
+  gap: 5px;
+  width: 90%;
+  margin-left: 16px;
+  margin-top: 190px;
+  
+}
+ .form-row-2 {
+  display: flex;
+  gap: 5px;
+  width: 90%;
+  margin-left: 16px;
+  margin-top: 10px;
+ 
+}
+/* styling of form-row-3 */
+.form-row-3 {
+    display: flex;
+    gap: 5px;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 16px; 
+    
+}
+.form-row-4 {
+  display: flex;
+  gap: 0px;
+  width: 400px;
+  margin-left: 150px;
+  margin-top: 10px
+  
+}
+.form-row-5 {
+  display: flex;
+  gap: 30px;
+  width: 380px;
+  margin-left: 130px;
+  margin-top: 10px
+} 
+/* styling of form-group label */
+.form-group label {
+  font-size: 1vw;
+}
+/* styling of form-group input & styling of form-group select */
+.form-group input,
+.form-group select {
+  padding: 7px;
+  width:80%;
+  background-color: rgba(238, 234, 234, 0.342);
+  border: 1px solid rgba(222, 224, 224, 0.555);
+  outline: none;
+  border-radius: 0px;
+  margin-top: 5px;
+}
+/* styling of form-group input:hover & styling of form-group select:hover */
+.form-group input:hover,
+.form-group select:hover {
+    border: 2px solid rgba(112, 230, 200, 0.555);
+    outline: none;
+}
+/* styling of terms */
+.class-terms {
+  margin-top: 1px;
+  margin-left: 8px;
+}
+/* styling of terms p */
+.class-terms p {
+  font-size: 7.5px;
+  margin-right: 1px;
+}
+
+/* styling of terms p a */
+.class-terms p a {
+  text-decoration: none;
+  color: blue;
+}
+/* styling class-form-btn */
+.class-form-btn {
+ width: 100px;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 150px;
+}
+/* styling of form-btn button */
+.class-form-btn button {
+  padding: 8px;
+  width: 257px;
+  background-color: #10caab;
+  border: none;
+  border-radius: 2px;
+  font-size: 17px;
+  color: #fff;
+}
+.submit-btn:hover {
+  background-color: #07b1b1;
+}
+
+.header-container-2 {
+  background-color: rgb(249, 253, 253);
+  height: 550px;
+  width: 138px;
+  border: 1px solid rgb(133, 131, 131);
+  padding: 0px 1px 0px 5px;
+  margin-top: -490px;
+  margin-left: 680px;
+ 
+}
+img {
+ width: 30px;
+ height: 30px;
+ margin-top: 10px;
+ border-radius: 100%;
+ margin-right: 20px;
+}
+
+.for-individuals-2 {
+  margin-top: 5px;
+  margin-left: 1px;
+  font-size: 15px;
+  font-weight: 800;
+ 
+  
+}
+.class-2 {
+  margin-top: 5px;
+  margin-left: 2px;
+  color: rgba(51, 50, 50, 0.342);
+  width: 128px;
+  height: 0px;
+  font-size: 6px;
+}
+/* styling grid-signup-container*/
+.signup-container {
+  background-color: white;
+  padding: 20px 0px 0px 0px;
+  border-radius: 5px;
+  width: 130px;
+  height: 200px;
+  margin: 0px;
+  margin-left: 2px;
+  margin-top: 25px;
+  margin-right: 20px;
+ 
+}
+/* styling of form-container-2 */
+.form-container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 400px;
+  height: 380px;
+  
+}
+/* styling of form group */
+.form-group-2 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  color: rgb(107, 105, 105);
+}
+/* styling of form-group-2 gender and Activity */
+.form-group-2 #gender, .form-group-2 #Activity {
+  width: 115px;
+}
+.form-container-2 .form-row-6, .form-row-7, .form-row-8,
+ .form-row-9, .form-row-10, .form-row-11,
+  .form-row-12, .form-row-13 {
+  display: flex;
+  gap: 0px;
+  width: 185px;
+  margin: 0px;
+  margin-right: 200px;
+  padding: 0px;
+  font-size: 8px;
+}
+.form-group-2 label {
+  font-size: 10px;
+  margin-top: 8px;
+  
+}
+.form-group-2 input,
+.form-group-2 select {
+  padding: 7px;
+  width:55%;
+  background-color: rgba(245, 243, 243, 0.938);
+  border: 1px solid rgb(230, 227, 227);
+  outline: none;
+  border-radius: 0px;
+  margin: 0px;
+  margin-right: 90px;
+  font-size: 9px;
+  
+}
+/* styling of form-group input:hover & styling of form-group select:hover */
+.form-group-2 input:hover,
+.form-group-2 select:hover {
+    border: 2px solid rgba(112, 230, 200, 0.555);
+    outline: none;
+}
+/* styling of terms */
+.terms-2 {
+  font-size: 5.5px;
+  width: 115px;
+  margin-top: 2px;
+  margin-right: 265px;
+  font-weight: 800;
+}
+
+/* styling of terms p a */
+.terms-2 p a {
+  text-decoration: none;
+  color: blue;
+}
+/* styling class-form-btn */
+.form-btn-2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 270px;
+  
+}
+/* styling of form-btn button */
+.form-btn-2 button {
+  padding: 10px;
+  width: 115px;
+  background-color: #10caab;
+  border: none;
+  border-radius: 5px;
+  font-size: 10px;
+  color: #fff;
+}
+.submit-btn-2:hover {
+  background-color: #07b1b1;
+}

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup page</title>
+    <!--external css-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+     <div class="page-2">
+       <select id="sign-up-page">
+          <option value="sign-up-page">Signup</option>
+          <option value="page-2">page-2</option>
+       </select>
+       <a href="http://127.0.0.1:5500/Assignment%203/Index.html">Assignment 3</a>
+      </div>
+      <div class="page-2-container">
+       <div class="signup_individual-container">
+        <div class="header">
+          <p class="individual">
+          <img
+            src="./public/images/img-logo.png"
+            alt="individual"
+            class="individual"
+          />
+         </p>
+          <div class="class-for-individuals-1">
+            For Individuals
+          </div>
+          <p class="class-1">
+            Start benefiting from the wellness experience. For companies
+            looking on increasing productivity, and improving organization
+            wellness.
+          </p>
+          </div>
+         <form action="/submit" method="POST">
+          <div class="parent-form-section">
+            <div class="signup-page-container">
+              <div class="form-container">
+                <div class="form-row-1">
+                    <div class="form-group">
+                      <label for="first-name">First Name</label>
+                      <input
+                        type="text"
+                        id="last name"
+                        placeholder="Tolu"
+                        required
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="last-name">Last Name</label>
+                      <input
+                        type="text"
+                        id="last-name"
+                        placeholder=""
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="form-row-2">
+                    <div class="form-group">
+                      <label for="gender">Gender</label>
+                      <select id="gender" name="Gender" required>
+                        <option value="">Select here</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="icon">Date of Birth</label>
+                      <input
+                        type="date"
+                        id="icon"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="form-row-3">
+                    <div class="form-group">
+                      <label for="Weight">Weight(KG)</label>
+                      <input
+                        type="weight"
+                        id="weight"
+                        placeholder="Enter Weight"
+                        required
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="height">Height(CM)</label>
+                      <input
+                        type="height"
+                        id="height"
+                        placeholder="Enter height here.."
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="form-row-4">
+                    <div class="form-group">
+                      <label for="Activity Level">Activity Level</label>
+                      <select id="Activity" name="Activity level" required>
+                        <option>Select here</option>
+                        <option>Low</option>
+                        <option>Medium</option>
+                        <option>High</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-row-5">
+                    <div class="form-group">
+                      <label for="password"
+                        >Password</label>
+                        <input
+                          type="password"
+                          id="password"
+                          class="password-input"
+                          placeholder=""
+                        />
+                        <span
+                          class="toggle-eye"
+                          onclick="togglePasswordVisibility()"
+                        >
+                          <i id="eyeIcon" class="fa fa-eye"></i>
+                        </span>
+                    </div>
+                  </div>
+                  <div class="class-form-btn">
+                    <button type="submit" class="submit-btn">
+                      Register 
+                    </button>
+                  </div>
+                  <div class="class-terms">
+                    <p>
+                      By clicking Register, you agree to our
+                      <a href="https://altschoolafrica.com/terms-and-conditions"
+                        >Terms of Use</a
+                      >
+                      and our
+                      <a href="https://altschoolafrica.com/privacy-policy"
+                        >Privacy Policy</a
+                      >.
+                    </p>
+                  </div>
+                 </div>
+             </div>
+           </form>
+          </div>
+           <form action="/submit" method="POST">
+             <div class="header-container-2">
+              <p class="individual-2">
+                <img
+                  src="./public/images/img-logo.png"
+                  alt="individual"
+                  class="individual-2"
+                />
+               </p>
+                <div class="for-individuals-2">
+                  For Individuals
+                </div>
+                 <p class="class-2">
+                    Inspiring wholesome harmony for the mimd,
+                    body and spirit, for everyone, everywhere.
+                 </p>
+               <div class="signup-container">
+               <div class="form-container-2">
+               <div class="form-row-6">
+                  <div class="form-group-2">
+                    <label for="first-name">First Name</label>
+                    <input
+                      type="text"
+                      id="last name"
+                      placeholder="Tolu"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-row-7">
+                  <div class="form-group-2">
+                    <label for="last-name">Last Name</label>
+                    <input
+                      type="text"
+                      id="last-name"
+                      placeholder="Enter last name"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-row-8">
+                  <div class="form-group-2">
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="Gender" required>
+                      <option value="">Select gender</option>
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-row-9">
+                  <div class="form-group-2">
+                    <label for="dob">Date of Birth</label>
+                    <input
+                      type="date"
+                      id="datePicker"
+                      class="custom-date-input"
+                      placeholder="Select here"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-row-10">
+                  <div class="form-group-2">
+                    <label for="Weight">Weight(KG)</label>
+                    <input
+                      type="weight"
+                      id="weight"
+                      placeholder="Enter Weight"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-row-11">
+                  <div class="form-group-2">
+                    <label for="height">Height(CM)</label>
+                    <input
+                      type="height"
+                      id="height"
+                      placeholder="Enter height here.."
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-row-12">
+                  <div class="form-group-2">
+                    <label for="Activity Level">Activity Level</label>
+                    <select id="Activity" name="Activity level" required>
+                      <option>Select here</option>
+                      <option>Low</option>
+                      <option>Medium</option>
+                      <option>High</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-row-13">
+                  <div class="form-group-2">
+                    <label for="password">Password</label>
+                    <input
+                      type="password"
+                      id="password"
+                      placeholder=""
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-btn-2">
+                  <button type="submit" class="submit-btn-2">
+                    Register 
+                  </button>
+                </div>
+                <div class="terms-2">
+                  <p>
+                    By clicking Register, you agree to our
+                    <a href="https://altschoolafrica.com/terms-and-conditions"
+                      >Terms of Use</a
+                    >
+                    and our
+                    <a href="https://altschoolafrica.com/privacy-policy"
+                      >Privacy Policy</a
+                    >.
+                  </p>
+                </div>
+              </div>
+           </form>
+         </div>
+         </div>
+        <a href="http://127.0.0.1:5501/index.html">Sign up page</a>
+         <br>
+        <a href="http://127.0.0.1:5501/page%202.html">page-2</a>
+       </div>
+    </main>
+  </body>
+</html>

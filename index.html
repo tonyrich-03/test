@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Work</title>
+    <!--link css-->
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+   <div class="container">
+      <span class="collapse">click on the screen to collapse the box opening</span>
+      <input type="button" value="HiteMe" id="myButton">
+     <div class="box">
+        <div class="card" id="front">Front (Assignment 1) <==</div>
+        <div class="card" id="back">Back (Assignment 2)</div>
+        <div class="card" id="left">Left (Assignment 3) <br><==</div>
+        <div class="card" id="right">Right (Assignment 4)</div>
+        <div class="card" id="top">Top (Assignment 5) <br><==</div>
+        <div class="card" id="bottom">Bottom (Assignment 6) <==</div>
+     </div>
+   </div>
+   <div class="box2">
+     <p id="content">Click on the below links to view the <span class="assignment">assignments</span></p>
+      <div class="assignment1">
+       <a href="./Assignment 1/" class="ass1">Assignment 1</a>
+     </div>
+     <div class="assignment2">
+       <a href="./Assignment 2/" class="ass2">Assignment 2</a>
+     </div>
+     <div class="assignment3">
+       <a href="./Assignment 3/" class="ass3">Assignment 3</a>
+     </div>
+     <div class="assignment4">
+      <a href="./Assignment 4/" class="ass4">Assignment 4</a>
+     </div>
+     <div class="assignment5">
+       <a href="./Assignment 5/" class="ass5">Assignment 5</a>
+     </div>
+     <div class="assignment6">
+       <a href="./Assignment 6/" class="ass6">Assignment 6</a>
+     </div>
+   </div>  
+   <script>
+    const button = document.getElementById("myButton");
+
+    // Adding an event listener for the button click
+    button.addEventListener("click", function () {
+        // Change the button's value temporarily
+        button.value = "Clicked!";
+
+        // Use a timeout to return it to its original state after 1 second
+        setTimeout(function () {
+            button.value = "HiteMe";
+        }, 1000);  // Time in milliseconds (1000ms = 1 second)
+    });
+  </script>   
+ </body>
+</html>

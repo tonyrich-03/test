@@ -1,0 +1,530 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f4f4;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 700px;
+}
+
+.Header-WP-Pusher-container {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 0px;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 0px;  
+}
+/* Responsive styling for grid-mobile */
+@media (min-width: 50px) {
+  .Header-WP-Pusher-container {
+    width: 50%; /* For screens 200px wide or more (mobile) */
+    border-radius: 0px;
+  }
+}
+
+/* Responsive styling for grid-tablet */
+@media (min-width: 100px) {
+  .Header-WP-Pusher-container {
+    width: 100%; /* For screens 500px wide or more (tablet) */
+  }
+}
+
+/* Responsive styling for desktop */
+@media (min-width: 1024px) {
+  .Header-WP-Pusher-container {
+    width: 100%; /* For screens 1024px wide or more (desktop) */
+  }
+}
+.Header-WP-Pusher-container img {
+  display: flex;
+  justify-content: absolute;
+  margin-left: 0px;
+  width: 155px;
+  height: 45px;
+  border-radius: 0px;
+}
+.Download {
+    display: flex;
+    justify-content: relative;
+    margin-top: -25px;
+    margin-left: 388px;
+    font-size: 7px;
+}
+.Learn-more {
+    display: flex;
+    justify-content: relative;
+    margin-top: -8px;
+    margin-left: 455px;
+    font-size: 7px;
+}
+.Pricing {
+    display: flex;
+    justify-content: relative;
+    margin-top: -7px;
+    margin-left: 528px;
+    font-size: 7px;
+}
+.Help {
+    display: flex;
+    justify-content: relative;
+    margin-top: -8px;
+    margin-left: 585px;
+    font-size: 7px;
+}
+.Account {
+    display: flex;
+    justify-content: relative;
+    margin-top: -11px;
+    margin-left: 630px;
+    font-size: 10px;
+}
+.style {
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid rgb(231, 228, 228);
+  width: 100%;  
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}
+.kirk-container {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: center;
+  padding-top: 100px;
+  margin-top: -480px;
+  margin-left: 448px;
+  margin-right: 0px;
+  width: 152px;
+  height: 380px;
+  border-radius: 0px 5px 5px 0px;
+  background-color: rgb(14, 104, 179);
+}
+.checkout-container {
+    font-family: 'Lato';
+    font-weight: 800;
+    width: 520px;
+    height: 480px;
+    margin-top: 40px;
+    margin-left: 80px;
+    padding: 0px;
+    background-color: #f1f5f4;
+    border-radius: 0px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.459);   
+}
+.checkout-container h1 {
+  padding-top: 15px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #333;
+}
+
+.style-1  {
+  border: none;
+  border-bottom: 1px solid rgb(226, 223, 223);
+  width: 470px; 
+  margin-top: 10px;
+  margin-left: 0px;
+}
+.style-2, .style-3  {
+  border: none;
+  border-bottom: 1px solid rgb(226, 223, 223);
+  width: 349px; 
+  margin-top: 25px;
+  margin-left: -35px;
+}
+
+.Your-Basic-information-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  margin-top: 55px;
+  margin-left: 120px;
+  width: 80px;
+  height: 250px;
+}
+.custom-list {
+    counter-reset: list-counter; /* Reset the counter */
+    list-style: none; /* Remove default numbering */
+    padding-left: 0; /* Remove default padding */
+    margin-top: 10px;
+  }
+  
+  .custom-list li {
+    counter-increment: list-counter; /* Increment the counter for each list item */
+    gap: 0px;
+    margin-bottom: 10px; /* Add space between items */
+    margin-top: 5px;
+    margin-left: 180px;
+    position: relative;
+    padding-left: 25px; /* Space for the circled number */
+    padding-top: 0px;
+    font-size: 10px;
+  }
+  
+  .custom-list li::before {
+    content: counter(list-counter); /* Display the counter */
+    font-size: 13px; /* Font size for the number */
+    width: 15px;
+    height: 15px;
+    border: 1px solid #423fce; /* Border to create the circle */
+    border-radius: 50%; /* Make it a circle */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0; /* Align the circle to the left */
+    top: 0;
+    color: #3835d6; /* Text color */
+    background-color: #fff; /* Background inside the circle */
+  }
+  
+  .form-row-1 {
+    display: flex;
+    gap: 5px;
+    width: 50%;
+    margin-left: 180px;
+    margin-top: 20px; 
+}
+ .form-row-2 {
+  display: flex;
+  gap: 0px;
+  width: 430px;
+  margin-left: 180px;
+  margin-top: 10px
+}
+
+ .form-row-3 {
+  display: flex;
+  gap: 30px;
+  width: 430px;
+  margin-left: 180px;
+  margin-top: 10px
+}
+
+.form-group  {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+ .form-group label {
+    font-size: 1vw;
+}
+
+.form-group input {
+  padding: 5px;
+  width:80%;
+  background-color: rgba(238, 234, 234, 0.342);
+  border: 1px solid rgba(222, 224, 224, 0.555);
+  outline: none;
+  border-radius: 0px;
+  margin-top: 5px;
+}
+.form-group #card-number, .spaced-placeholder::placeholder {
+    /* Optionally, line-height for multi-line placeholders in a textarea */
+    margin: 0px;
+    word-spacing: 14.5px;
+    line-height: 1.6;
+  }
+  /* styling of form-group input:hover & styling of form-group select:hover */
+.form-group input:hover {
+    border: 2px solid rgba(112, 230, 200, 0.555);
+    outline: none;
+}
+/* styling class-form-btn */
+.form-btn {
+    width: 100px;
+     text-align: center;
+     margin-top: 0px;
+     margin-right: 150px;
+   }
+   /* styling of form-btn button */
+   .form-btn button {
+     padding: 8px;
+     width: 290px;
+     margin-left: 0px;
+     background-color: #19967f;
+     border: none;
+     border-radius: 2px;
+     font-size: 12px;
+     color: #fff;
+   }
+   .submit-btn:hover {
+     background-color: #07b1b1;
+   }
+   .circle-question-mark {
+    display: inline-flex; /* Allows for easy alignment */
+    justify-content: center;
+    align-items: center;
+    width: 15px; /* Fixed width and height to create the circle */
+    height: 15px;
+    margin-top: 10px;
+    margin-left: -230px;
+    border: 1px solid #5654d1; /* Solid border for the circle */
+    border-radius: 50%; /* Makes the shape circular */
+    font-size: 13px; /* Adjust the size of the question mark */
+    color: #515ae6; /* Color of the question mark */
+   }
+   .Need-any-help {
+    display: flex;
+    justify-content: left;
+    margin-top: -15px;
+    margin-left: -30px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #020202;
+    width: 180px;
+    padding-left: 5px;
+   }
+   .dont-hesitate-to {
+    display: flex;
+    justify-content: left;
+    margin-top: -15px;
+    margin-left: 160px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #757171;
+    width: 180px;
+    padding-left: 5px;
+  }
+  .contact-underlined {
+    display: flex;
+    justify-content: left;
+    margin-top: -16px;
+    margin-left: 350px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #757171;
+    width: 180px;
+    text-decoration: underline;
+    padding-left: 5px;
+    
+  }
+  .support {
+    display: flex;
+    justify-content: left;
+    margin-top: 5px;
+    margin-left: -30px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #757171;
+    width: 180px;
+    padding-left: 5px;
+  }
+  .powered-by img {
+    display: flex;
+    justify-content: left;
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 100px;
+    height: 25px;
+    border: 0px;
+    border-radius: 8px;
+  } 
+  
+  
+  .blue-container-1 {
+    display: flex;
+    justify-content: center;
+   
+  }
+  .header-freelancer {
+    display: flex;
+    justify-content: center;
+    margin-top: -120px;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+  }
+  
+  
+  p .dollar-sign {
+    display: flex;
+    justify-content: center;
+    margin-top: -1px;
+    margin-right: 110px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+  }
+  
+.number {
+  display: flex;
+  justify-content: center;
+  margin-top: -37px;
+  margin-left: -48px;
+  font-size: 40px;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+}
+.year {
+  display: flex;
+  justify-content: center;
+  margin-top: -25px;
+  margin-left: 35px;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(255, 253, 253);
+}
+.year-automatically-renews {
+  display: flex;
+  justify-content: center;
+  padding-left: 0px;
+  margin-top: 20px;
+  margin-left: 0px;
+  width: 100px;
+  font-size: 10px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.sites {
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.sites svg {
+  margin-top: 10px;
+  margin-left: -20px;
+  width: 20px;
+  height: 20px;
+  font-size: 5px;
+  font-weight: 400;
+  border-radius: 50%;
+  
+}
+.use-on-client-sites {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left: 8px;
+  font-size: 10px;
+  font-weight: 400;
+  color: rgb(255, 251, 251);
+}
+.private {
+  display: flex;
+  justify-content: center;
+}
+.private svg {
+  margin-top: 6px;
+  margin-left: -16px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+ 
+}
+.private-respositories {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 10px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.Email-support-check {
+  display: flex;
+  justify-content: center;
+}
+.Email-support-check svg {
+  margin-top: 10px;
+  margin-left: -44px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: rgb(255, 255, 255); 
+}
+.Email-support {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 10px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.class-need {
+  display: flex;
+  justify-content: center;
+}
+.needs {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 89px;
+  font-size: 10px;
+  color: white;
+}
+.Switch {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  margin-top: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-decoration: underline;
+  font-size: 10px;
+  color: white;
+}
+.style-4{
+  border: none;
+  border-bottom: 1px solid rgb(226, 223, 223);
+  width: 125px; 
+  margin-top: 10px;
+  margin-left: 33px; 
+}
+.kirk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kirk .ftp-is-horrible {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 8px;
+  color: white;
+}
+.kirk-image img {
+  display: inline-flex; /* allow for a easy alignment */
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 30px; /* Fixed width and height to create the circle */
+  height: 30px;
+  border-radius:80px;
+  margin-left: 28px;
+  
+}
+.kirk-beard {
+  display: flex;
+  justify-content: right;
+  width: 180px;
+  margin-top: -25px;
+  margin-left: -70px;
+  font-size: 10px;
+  color: white;
+}

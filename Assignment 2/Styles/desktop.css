@@ -1,0 +1,315 @@
+/* General body styles */
+body, main {
+    font-family: Arial, sans-serif;
+  background-color: #222121;
+  margin: 50px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  }
+   /* Container styles */
+  .figma-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 10px solid rgba(226, 227, 228, 0.979);
+    margin: 100px 0px 120px 170px;
+    background-color: rgb(250, 250, 250);
+    max-height: 500px;
+    max-width: 650px;
+    box-sizing: border-box;
+  }
+  /* Responsive styling for grid-mobile */
+  @media (min-width: 80px) {
+    .grid-mobile {
+      width: 70%; /* For screens 250px wide or more (mobile) */
+      border-radius: 0px;
+    }
+  }
+  
+  /* Responsive styling for grid-tablet */
+  @media (min-width: 150px) {
+    .grid-tablet {
+      width: 100%; /* For screens 500px wide or more (tablet) */
+    }
+  }
+  
+  /* Responsive styling for desktop */
+  @media (min-width: 1024px) {
+    .container {
+      width: 100%; /* For screens 1024px wide or more (desktop) */
+    }
+  }
+  /* Grid parent container styles */
+  .grid-parent-container {
+    display: grid;
+    grid-template-columns: 250px 275px;
+    max-width: 500px;
+    max-height: 600px;
+    grid-gap: 60px;
+    margin: 0;
+  }
+  
+  /* Styling for grid-tablet */
+  .grid-tablet {
+    background-color: white;
+    padding: 0px 40px 0px 0px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.459);
+    margin: 0;
+  }
+  
+  /* Header styling for grid-tablet */
+  .grid-tablet .header {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  /* styling for grid-tablet .huckleberry */
+  .grid-tablet .huckleberry {
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin: 5px;
+  }
+  /* styling for grid-tablet .an-avant-garde-agency-focused-on-connecting-passion-with-logistics */
+  .grid-tablet .an-avant-garde-agency-focused-on-connecting-passion-with-logistics {
+    font-size: 10px;
+    line-height: 1.2;
+    margin: 5px;
+    max-width: 75%;
+  }
+  /*styling for grid-tablet .abetter-way-to-solve-the-problems-of-tomorrow */
+  .grid-tablet .abetter-way-to-solve-the-problems-of-tomorrow {
+    font-size: 10px;
+    line-height: 1.3;
+    margin: 5px;
+    max-width: 70%;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  /* styling for grid-tablet .an-avant-garde-agency-focused-on-connecting-passion-with-logistics-sub-137 */
+  .grid-tablet .an-avant-garde-agency-focused-on-connecting-passion-with-logistics-sub-137,
+  .grid-tablet .an-avant-garde-agency-focused-on-connecting-passion-with-logistics-sub-136 {
+    font-family: 'Lato';
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 1.3;
+    color: #27b43e;
+    margin: 5px;
+  }
+  /* styling for grid-tablet .no-modern-business-can-thrive-without-developing-aspecialization-in-operations-huckleberry-has-helped-dozens-of-companies-from-fortune-50-monoliths-to-fast-growing-bay-area-startups-achieve-their-goals-and-meet-their-kpis-by-leveraging-our-extensive-network-of-logistics-experts */
+  .grid-tablet .no-modern-business-can-thrive-without-developing-aspecialization-in-operations-huckleberry-has-helped-dozens-of-companies-from-fortune-50-monoliths-to-fast-growing-bay-area-startups-achieve-their-goals-and-meet-their-kpis-by-leveraging-our-extensive-network-of-logistics-experts {
+    margin: 39px 0px 1px 5px;
+    padding: 8px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: "Lato";
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 1.3;
+    color: #333;
+  }
+  /* styling for grid-tablet .huckleberry-was-established-in-2003-to-help-ambitious-businesses-discover-their-true-potential-if-that-resonates-lets-chat */
+  .grid-tablet .huckleberry-was-established-in-2003-to-help-ambitious-businesses-discover-their-true-potential-if-that-resonates-lets-chat {
+    font-family: "Lato";
+    overflow-wrap: break-word;
+    font-weight: 800;
+    line-height: 1.3;
+    font-size: 10px;
+    color: #0c0c0c;
+    margin: 1px 0px 0px 15px;
+    padding: 0px;
+  }
+  /* styling for .grid-tablet .card */
+  .grid-tablet .card {
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Main section styles */
+  .grid-tablet .main {
+    margin-top: 0px;
+    background: #5e5c5c;
+    padding: 30px 0 30px 0;
+    width: 290px;
+    max-height: 230px;
+    box-sizing: border-box;
+  }
+  /* .grid-tablet .Container-1 styles */
+  .grid-tablet .container-1 {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for container inside grid-tablet */
+  .grid-tablet .container {
+    border-bottom: 5px solid #CC9900;
+    background: #FFBF00;
+    position: absolute;
+    left: 0px;
+    top: 3px;
+    display: flex;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 50%;
+   
+  }
+  
+  .grid-tablet .wealth-comes-from-operations {
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 1.3;
+    color: black;
+    margin: 5px;
+    padding: 0;
+  }
+  
+  /* Styling for grid-mobile */
+  .grid-mobile {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.459);
+    
+  }
+  
+  .grid-mobile .header {
+    text-align: left;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 10px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    
+  }
+  
+  .grid-mobile .huckleberry {
+    font-family: 'Lato';
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.2;
+    color: black;
+    
+  }
+  
+  .grid-mobile .an-avant-garde-agency-focused-on-connecting-passion-with-logistics {
+    font-family: 'Lato';
+    font-weight: 800;
+    font-size: 10px;
+    letter-spacing: -0.1px;
+    line-height: 1.2;
+    max-width: 80%; 
+    }
+    
+    .grid-mobile .an-avant-garde-agency-focused-on-connecting-passion-with-logistics-sub-137, 
+    .grid-mobile .an-avant-garde-agency-focused-on-connecting-passion-with-logistics-sub-136 {
+      font-family: 'lato';
+      font-weight: 800;
+      font-size: 10px;
+      line-height: 1.2;
+      color: #27b43e;
+    }
+    
+    .grid-mobile .abetter-way-to-solve-the-problems-of-tomorrow {
+      font-size: 10px;
+      overflow-wrap: break-word;
+      margin: 0px;
+      font-family: "Lato";
+      font-weight: 800;
+      line-height: 1.6;
+      max-width: 80%;
+      color: #000000;
+    }
+    .grid-mobile .no-modern-business-can-thrive-without-developing-aspecialization-in-operations-huckleberry-has-helped-dozens-of-companies-from-fortune-50-monoliths-to-fast-growing-bay-area-startups-achieve-their-goals-and-meet-their-kpis-by-leveraging-our-extensive-network-of-logistics-experts {
+        margin: 50px 0px 0px 2px;
+        padding: 8px; 
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: "Lato";
+        font-weight: 800;
+        font-size: 10px;
+        line-height: 1.2;
+        color: #333;
+      }
+      .grid-mobile .huckleberry-was-established-in-2003-to-help-ambitious-businesses-discover-their-true-potential-if-that-resonates-lets-chat {
+        font-family: "Lato";
+        overflow-wrap: break-word;
+        font-weight: 800;
+        line-height: 1.2;
+        font-size: 10px;
+        color: #0c0c0c;
+        margin: 2px;
+        margin-left: 9px;
+        padding: 0px;
+        
+      }
+
+  .grid-mobile .container {
+    border-bottom: 3px solid #CC9900;
+    background: #FFBF00;
+    position: absolute;
+    left: 0px;
+    top: 3px;
+    display: flex;
+    width: 90%;
+  }
+  
+  .grid-mobile .card {
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.349);
+   
+  }
+  
+  .grid-mobile .main {
+    margin-top: 0px;
+    background: #4d4a4a;
+    position: relative;
+    display: flex;
+    padding: 30px 0 0px 0;
+    width: 192px;
+    max-height: 240px;
+    box-sizing: border-box;
+    border-radius: 0px 0px 5px 5px;
+  }
+  
+  .grid-mobile .container-1 {
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 0px 0px 10px 10px;
+   
+  }
+  .grid-mobile .wealth-comes-from-operations {
+    overflow-wrap: break-word;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.0;
+    color: black;
+    margin: 7px;
+    padding: 4px;
+    
+  }
